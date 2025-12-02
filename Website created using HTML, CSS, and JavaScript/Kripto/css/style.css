@@ -1,0 +1,155 @@
+
+#heder{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#logo{
+    width: 40%;
+}
+#pozadinaSlajder {
+    background-image: url('../images/slajder1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#slajderh6{
+    color: var(--primary-color);
+}
+#dugmeKripto{
+    width: 100%;
+    height: 50x;
+    margin-bottom: 30px;
+}
+#naslov{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#opisValute{
+    text-align: center;
+}
+#blokKripto{
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    min-height: 29em;
+    padding-bottom: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#slikaKripto{
+    width: 100%;
+    height: 200px;
+}
+.saznajVise{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.2em;
+    color: #f16f11;
+}
+.saznajVise:hover{
+    color: var(--primary-color);
+}
+.dodatniTekst{
+    text-align: center;
+
+}
+#formaNaslov{
+    text-align: center;
+}
+#futer{
+    width: 100%;
+    height: 3.8em;
+    background-color: #ebecf0
+}
+#tekstFuter{
+    padding-top: 7px;
+}
+footer{
+    padding-top: 10px;
+    min-height: 1em;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    display: inline;
+}
+footer ul li a i:hover{
+    color: #f16f11;
+}
+.fa{
+    font-size: 25px;
+    padding:10px 10px 0px 10px;
+    color: #42403f;
+}
+#DocSite a i:hover{
+    color: #f16f11;
+}
+.crveno{
+    border: 2px solid rgb(255, 0, 0);
+}
+.zeleno{
+    border: 2px solid rgb(2, 197, 2);
+}
+.crno{
+    border: 1px solid rgb(0, 0, 0);
+}
+.form-control{
+    border-radius: 5px;
+}
+#potvrda{
+    text-align: center;
+    color: rgb(90, 88, 88);
+}
+.pKripto{
+    margin-top: 15px;
+    color: rgb(146, 146, 146)
+}
+.imeKripto{
+    color: rgb(255, 255, 255)
+}
+.tekstSlikaAutor{
+    background-color: white;
+    height: 28em;
+    border-radius: 10px;
+    background: var(--dark-color);
+}
+#autorNaslov{
+    text-align: center;
+    padding-top: 2.5em;
+    color: var(--white-color);
+}
+#autorh3{
+    color: #d1d1d1;
+}   
+.pTag{
+    color: #bdbdbd;
+} 
+#autor{
+    padding-top: 0px;
+    border-top: 1px solid rgb(0, 0, 0);
+    background: var(--dark-color);
+}
+#slikaAutor{
+    width: 20em;
+    height: 25em;
+    margin-left: 7em;
+    margin-top: 1em;
+    border-radius: 10px;
+}
+#ict{
+    background-color: #f13625;
+    border-radius: 2px;
+    padding: 5px;
+}
+#napomena{
+    color: #f13625;
+}
+.povecanje{
+    color: rgb(3, 184, 3)
+}
+.smanjenje{
+    color: rgb(218, 7, 7)
+}
