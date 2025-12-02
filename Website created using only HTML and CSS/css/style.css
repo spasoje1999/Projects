@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.cistac{
+	clear: both; 	
+}
+body{
+	font-size: 16px; 
+	font-family: 'Varela Round', sans-serif;	
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none; 
+	color: #ffecb3; 
+	font-size: 17px; 
+}
+p{
+	font-size: 24px;
+	color:white;
+	font-family: 'Varela Round', sans-serif;
+}
+h1{
+	font-size: 38px; 
+	color: #ffca28; 
+	padding-top: 25px; 
+}
+h2{
+	margin-top:5px; 
+	text-align: center; 
+	font-size: 24px;
+	font-family: 'Varela Round', sans-serif;
+	color: #ffca29; 
+	font-weight: normal; 
+}
+.okvir{
+	margin: 0px auto;
+	width: 1024px; 
+	height: 80px; 
+}
+header{
+	width: 100%; 
+	min-height:80px;
+	background-color: black; 
+	margin: 0px auto; 
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2; 
+	border-bottom: 2px solid white; 
+}
+#logo{
+	float: left;
+	width: 150px;
+	height: auto; 
+	margin-top: 10px; 
+	margin-bottom: 6px; 
+ 
+}
+#meni{
+	float:right; 
+	
+	height: auto; 
+}
+#logo img{
+	border-radius: 25%; 
+	width: 110px;
+	margin-left: 45px; 
+}
+#meni ul{
+	padding: 30px; 
+	text-align: center; 
+	margin-top: 0px;  	
+}
+#meni ul li{
+	float:left ; 
+	margin-left: 2px; 
+	font-family: 'Oxygen', sans-serif;
+	border-right: 1px solid white; 
+	padding-right: 20px; 
+	padding-left: 20px;
+}
+#meni ul li a:hover{
+	color: #ffd54e !important; 
+}
+#meni li a:hover, .select {
+	color: #ffd54e !important;
+	padding-top: 8px;	
+	padding-bottom: 8px;	
+}
+#sredina{
+	width: 100%; 
+	height: auto; 
+	margin: 0px auto; 
+	background-image: url("../img/pozadina.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+	border-bottom: 2px solid #fff; 
+	position: relative; 
+}
+#grupaVozaca{
+	width:1024px;
+	min-height: 400px; 
+	padding-top: 85px;  
+}
+.vozac{
+	width: 200px;
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.6);
+	float: left;  
+	margin: 30px 28px; 
+	border-radius: 10px;  	
+}
+.vozac:nth-child(2n+1):hover{
+	transform: rotate(5deg); 
+}
+.vozac:nth-child(2n):hover{
+	transform: rotate(5deg); 
+}
+.unutarVozaca{
+	width: 100%;
+	height: 180px;
+	border-radius: 10px; 
+}
+#dovi{
+	background-image: url("../img/dovi.jpg");
+	background-repeat: no-repeat;
+}
+#zarco{
+	background-image: url("../img/zarco.jpg");
+	background-repeat: no-repeat;
+}
+#petruci{
+	background-image: url("../img/petruci.jpg");
+	background-repeat: no-repeat;
+}
+#vinjales{
+	background-image: url("../img/vinjales.jpg");
+	background-repeat: no-repeat;
+}
+#grupaVozaca1{
+	width: 1024px;
+	min-height: 250px; 
+	margin: 0px auto; 
+	 
+}
+#janone{
+	background-image: url("../img/janone.jpg");
+	background-repeat: no-repeat;
+}
+#kraclou{
+	background-image: url("../img/kraclou.jpg");
+	background-repeat: no-repeat;
+}
+#ales{
+	background-image: url("../img/ales.jpg");
+	background-repeat: no-repeat;
+}
+#rins{
+	background-image: url("../img/rins.jpg");
+	background-repeat: no-repeat;
+}
+#grupaVozaca2{
+	width: 1024px;
+	min-height: 200px; 
+	margin:0px auto 10px auto; 
+	padding-top: 10px; 
+}
+#miler{
+	background-image: url("../img/miler.jpg");
+	background-repeat: no-repeat;
+}
+#pol{
+	background-image: url("../img/pol.jpg");
+	background-repeat: no-repeat;
+}
+#rosi{
+	background-image: url("../img/rosi.jpg");
+	background-repeat: no-repeat;
+}
+#banjaja{
+	background-image: url("../img/banjaja.jpg");
+	background-repeat: no-repeat;
+}
+#grupaVozaca3{
+	width: 1024px;
+	min-height: 500px; 
+	margin: 0px auto; 
+	padding-top: 0px; 
+	padding-right: 10px; 
+	padding-left: 10px; 
+	
+}
+#markez{
+	background-image: url("../img/markez.jpg");
+	background-repeat: no-repeat;	
+}
+#lorenzo{
+	background-image: url("../img/lorenzo.jpg");
+	background-repeat: no-repeat;
+}
+footer{
+	width: 100%;
+	height:90px;
+	background-color: black; 
+	margin: 0px auto;
+}	
+#sredina1{
+	width: 100%;
+	height: 750px;
+	background-image: url("../img/pozadina.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+	border-bottom: 2px solid white; 	
+}	
+#mojaSlika{
+	width: 350px;
+	height: 550px; 
+	float: left; 
+	margin-top: 140px;  
+	margin-left: 80px; 
+	background-image: url("../img/ja.jpg");
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	border-radius: 15%; 
+}
+#mojaSlika:hover{
+	border: 2px solid #ffe082; 	
+}
+#tekst{
+	width: 450px;
+	height: 430px;
+	background-color:rgba(0, 0, 0, 0.5) ; 
+	float: right; 
+	margin-top: 210px; 
+	margin-right: 100px; 
+	border-radius: 25px; 	
+}
+#tekst p{
+	text-align: center; 
+	color: #ffe082;
+}
+#omot{
+	width: 1024px;
+	margin: 0px auto; 
+	background-color:rgba(0, 0, 0, 0.9) ; 
+	height: 750px; 
+}
+#info{
+	Width: 1024px;
+	margin: 0px auto;
+	padding-top: 20px; 
+}
+#info li{
+	float: left;
+	margin-left: 20px;
+	margin-top : 10px; 	
+	font-size: 25px;
+}
+#info ul{
+	float:right; 
+}
+#info li a{
+	color: #ffecb4; 
+	font-size: 25px; 
+}
+#info li a:hover{
+	 color: #ffd54f;
+}
+#dole{
+	text-align: right; 
+	font-size: 20px;
+	margin-right: 35px; 
+	color:rgba(252, 57, 31, 1); 	
+}
+h4{
+	color: #ffecb3; 
+	font-family: 'Varela Round', sans-serif;  	 
+	padding-top: 18px; 
+	font-weight: normal; 
+}
+.oVozacu{
+	text-align: center; 
+	font-size: 18px; 
+	font-family: 'Varela Round', sans-serif;
+	color: #ffe082; 
+	Word-wrap:normal; 
+	margin-top: 5px; 
+}
+.slStrana {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 160px; 
+	border-radius: 2px; 
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.slStrana a:hover{
+	color: #ffe082;  
+	background-color: rgba(208, 210, 209, 0.5);
+	border-radius: 20%;  
+}
+.slStrana a{
+	border-right: 2px solid white; 
+	border-left: 2px solid white; 
+	text-align: center; 
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#sledeca{
+	width: 130px; 
+}
+#slkalendar{
+	width: 140px; 
+}
+#prsl{
+	width: 165px; 
+}
+#sl{
+	margin-left: 15px; 
+}
+#centar{
+	width: 1024px;
+	height: auto; 
+	margin: 0px auto; 
+	background-color: rgba(0,0,0,0.9);
+}
+#rss{
+	border-radius: 10px; 	
+}
+#galerijaKontejner{
+	width: 100%; 
+	height: auto; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 80px; 
+	padding-top: 20px; 
+	padding-bottom: 20px;
+}
+.galerijaimg{
+	cursor: pointer;	
+	width: 300px;
+	height: auto;
+	border-radius: 16px; 
+	margin: 20px 10px 10px 10px; 
+	transition: 0.5s; 
+}
+.galerijaimg:hover {
+	transform: scale(1.5);
+	z-index: 3; 
+}
+#centar1{
+	width: 1024px;
+	height: 760px;
+	margin: 70px auto 0px auto; 
+	display: flex; 
+	justify-content: center;
+	justify-content: space-around; 
+	align-content: center; 
+	background-color: rgba(0, 0, 0, 0.8); 
+}
+#Levo{
+	width: 25%;
+	height: 400px; 
+	background-color: rgba(0, 0, 0, 0.8); 
+	margin-top: 130px;
+	border-radius: 25px; 	
+}
+#Levo img{
+	margin-left: 25px; 
+}
+#tekstONama{
+	width: 65%;
+	height: 670px; 
+	background-color: rgba(0, 0, 0, 0.8); 
+	margin-top: 40px;
+	letter-spacing: 1.2px; 
+	text-align: center; 
+	border-radius: 25px; 		
+}
+#tekstONama p{
+	margin-top: 20px; 
+	text-align: center; 
+	color: #ffe082; 	
+}
+#Levo p{
+	margin-top: 10px;
+	color: #ffe082;  
+}
+#kalendarCentar{
+	width: 1024px;
+	height: 100%; 
+	margin: 0px auto; 	
+	padding-top: 15px; 
+	background-color: rgba(0,0,0,0.9);
+}
+#kalendarKontejner{
+	width: 100%; 
+	height: auto; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 50px; 
+	padding-top: 25px; 
+}
+.kalendarimg{	
+	width: 370px ;
+	height: 200px;
+	/*border: 1px solid #ffe082;*/
+	border-radius: 16px; 
+	margin: 20px 10px 10px 10px; 
+	margin-left: 15px;
+}
+.trka p{
+	text-align: center;
+	font-size: 22px; 
+	color: #ffe082; 
+}
+.trka{
+	width: 400px; 
+	height: 400px;
+	background-color: rgba(0, 0, 0, 0.8);
+	margin: 10px; 
+	border-radius: 25px; 
+}
+#forma{
+	margin:0px auto;
+    width:1024px ;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top:5px;
+    padding-bottom:15px;
+}
+input[type="text"],input[type="email"]{
+    width: 130%; 
+    margin-bottom: 10px; 
+    padding: 7px; 
+    margin-left: 202%;  
+    border-radius: 5px; 
+    background-color: rgb(0, 1, 1); 
+	color: #ffd54e;
+	border-color: #ffe082;
+}
+input[type="submit"],[type="reset"]{
+    border-radius: 5px; 
+    padding: 5px; 
+    background-color: rgb(1, 2, 1); 
+    margin-left: 227%; 
+    margin-top: 10px; 
+    width: 85%; 
+    color: #ffd54e;
+	border-color: #ffe082;
+}		
+input[type="submit"]:hover{
+	background-color: #ffd54e;
+	color: black; 
+}	
+input[type="reset"]:hover{
+	background-color: #ffd54e;
+	color: black; 
+}			
+#oFormi{
+	text-align: center; 
+	padding-bottom: 15px; 
+	color: #ffd54e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
