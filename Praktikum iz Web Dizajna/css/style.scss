@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+    scroll-behavior: smooth; 
+}
+#strelica{
+    position: fixed;
+    z-index: 9999; 
+    right: 2%;
+    bottom: 2%;
+    font-size: 45px ;  
+    i{
+        color: rgb(11, 56, 80);
+        &:hover{
+            color: rgb(21, 163, 182);
+        }
+    }
+}
+header{
+        position: fixed; 
+        width: 100%;
+        height: auto;
+        min-height: 50px;
+        background-color: rgb(180, 180, 180);
+        z-index: 999; 
+        border-bottom: 4px solid rgb(80, 79, 79); 
+        .cistac{
+            clear: both;
+        }
+    #meni{
+        width: 80% ; 
+        list-style-type: none;
+        font-weight: 700;
+        font-size: 14px;
+        float: right;
+        margin-right: 10px;
+        padding-bottom: 25px ;
+         ul{
+             margin-top: 30px; 
+             margin-right:45px; 
+             li{
+                display: inline-block;
+                margin-left: 70px;
+                border-left: 2px solid rgb(11, 56, 80);
+                border-right: 2px solid rgb(11, 56, 80);
+                padding: 8px;
+                a{
+                    text-decoration: none;
+                    color: rgb(33, 83, 112); 
+                    text-transform: uppercase;
+                    font-size: 16px; 
+                    font-family: 'Questrial', sans-serif;   
+                    &:hover { color: rgb(21, 163, 182);  }               
+                }
+            }
+        }
+    }
+ }
+#sredina{
+   width: 100%;
+   height: 700px; 
+   background-image: url("../img/pozadina.jpg");
+   background-size: cover; 
+   background-attachment: fixed; 
+    #box{
+       width: 100%;  
+       position: relative;
+       height: 100%; 
+        #boxtext{
+           width: 60%; 
+           padding: 10px;  
+           position: absolute;
+           top: 35%; 
+           left: 20%; 
+           background-color: rgba(33, 115, 156, 0.5);
+           border-radius: 9px; 
+            h1{
+                color: white; 
+                font-size: 50px;
+                text-align: center;  
+                font-family: 'Mukta', sans-serif;
+            }              
+        }
+        #developer{
+            width: 40%; 
+            padding: 10px;  
+            position: absolute;
+            top: 60%; 
+            left: 30%; 
+            background-color: rgba(33, 115, 156, 0.5);
+            border-radius: 9px; 
+             h2{
+                 color: white; 
+                 font-size: 40px;
+                 text-align: center;  
+                 font-family: 'Mukta', sans-serif;
+
+        }
+    } 
+  }
+}
+#oSebi{
+   width: 100%; 
+   height: auto;
+   background-color: rgb(224, 222, 222); 
+   border-top: 4px solid rgb(80, 79, 79);
+        h2{
+            text-align: center;
+            padding-top: 60px; 
+            padding-bottom: 45px; 
+            font-size: 48px; 
+            color: #1B5675;   
+            font-family: 'Questrial', sans-serif;     
+        }
+        #glavno{
+            display: flex;
+            justify-content: space-around; 
+            padding-bottom: 40px;
+            padding-top: 30px;
+            #border{
+                border-right: 2px solid #1B5675;
+                padding-right:  75px ;
+            }
+            .stavke{
+                width: 40%;
+                #ja{                   
+                   border-radius: 10% ;
+                   margin-left: 15%; 
+                }
+                h3{
+                    text-align: center;
+                    padding-bottom: 45px; 
+                    font-size: 25px; 
+                    color: #1B5675;   
+                    font-family: 'Questrial', sans-serif;     
+                }
+                p{
+                    margin-left: 10% ; 
+                    text-align: center;
+                    letter-spacing: 1px;
+                    font-size: 25px;  
+                    color: rgb(19, 68, 95);
+                    font-family: 'Questrial', sans-serif;                     
+                }
+            }
+           
+        }
+}
+#vestine{
+    width:100%;
+    height: auto;
+    background-image: url("../img/vestine.jpg");
+    background-size: cover; 
+    background-attachment: fixed; 
+    border-top: 4px solid rgb(80, 79, 79); 
+    padding-bottom: 80px; 
+    h2{
+        text-align: center;
+        padding-top: 60px; 
+        padding-bottom: 45px; 
+        font-size: 48px; 
+        color: rgb(27, 181, 219);   
+        font-family: 'Questrial', sans-serif;        
+    }
+    #jezici{
+        width: 100%;
+        height: auto; 
+        display: flex; 
+        justify-content: space-around; 
+        flex-wrap: wrap;
+        margin-top: 60px;  
+        padding-bottom: 35px; 
+        align-content: space-between;
+        #sass{
+            &:hover{
+                transform: scale(1.4);
+	            z-index: 1;}
+        }
+        .simg{
+            transition: 0.5s; 
+            margin-top: 10px; 
+            &:hover{
+                transform: scale(1.3);
+	            z-index: 3;
+            }
+        }
+        img{
+            border: 3px solid rgb(30, 65, 99);           
+            border-radius: 20% ; 
+        }
+    }  
+}
+#pik{
+    width:100%; 
+    display: flex; 
+    justify-content: space-between; 
+    #projekti{
+        width:50%;
+        height: auto;
+        background: linear-gradient(to bottom, #e0dede, #222);
+        border-top: 4px solid rgb(80, 79, 79); 
+        border-right: 4px solid rgb(80, 79, 79);
+        padding-bottom: 40px; 
+        h2{
+            text-align: center;
+            padding-top: 70px; 
+            padding-bottom: 45px; 
+            font-size: 48px; 
+            color: #1B5675;  
+            font-family: 'Questrial', sans-serif;    
+        }  
+        #projekat{
+            width: 80%; 
+            height: 50%; 
+            margin-left: 9%; 
+            margin-top: 4%; 
+            margin-bottom: 3%;
+            border-radius: 5%; 
+            &:hover{
+                box-shadow: 8px 8px 15px rgb(88, 162, 180);
+            }
+        }
+    }
+    #kontakt{
+        width:50%;
+        height: auto;
+        background: linear-gradient(to bottom, #222, #e0dede);
+        border-top: 4px solid rgb(80, 79, 79); 
+        padding-bottom: 40px; 
+        h2{
+            text-align: center;
+            padding-top: 70px; 
+            padding-bottom: 45px; 
+            font-size: 48px; 
+            color: #1B5675;    
+            font-family: 'Questrial', sans-serif;  
+        }  
+    #forma{
+            margin:0px auto;
+            width:350px ;
+            background-color: rgba(78, 81, 83, 0.5);
+            padding-top:20px;
+            padding-bottom:20px;
+            font-family: 'Questrial', sans-serif; 
+            border-radius: 10px; 
+            color: rgb(15, 44, 59); 
+            font-size: 20px;           
+            input[type="text"],input[type="email"]{
+                width: 100%; 
+                margin-bottom: 10px; 
+                padding: 7px; 
+                margin-left: 40%;  
+                border-radius: 5px; 
+                background-color: rgb(224, 222, 222); 
+            }
+            input[type="submit"],[type="reset"]{
+                border-radius: 5px; 
+                padding: 5px; 
+                background-color: rgb(147, 185, 202); 
+                margin-left: 49%; 
+                margin-top: 10px; 
+                width: 85%;   
+                &:hover{
+                    background-color: rgb(58, 189, 199);
+                }                           
+            }  
+            textarea{ 
+                border-radius: 5px; 
+                background-color: rgb(224, 222, 222);
+                margin-left: 48%;  
+                width: 88%; 
+               
+            } 
+        }
+    }
+}
+footer{
+    width: 100%; 
+    height: 100px;  
+    border-top: 4px solid rgb(80, 79, 79);
+    background-color: rgb(147, 185, 202); 
+    p{
+        text-align: center; 
+        margin-top: 1%; 
+        font-size: 20px; 
+        font-family: 'Questrial', sans-serif;
+        color: rgb(15, 44, 59);
+    }
+    #formaFooter{
+        width: 50%; 
+        margin: 0px auto; 
+            ul{
+               list-style-type: none; 
+               width: 90%;
+               margin: 15px auto; 
+               padding-bottom: 20px; 
+               li{
+                 float: left;
+                 margin-left: 18%; 
+                   a{
+                    text-decoration: none; 
+                    color: rgb(4, 24, 34);
+                    font-weight: 1; 
+                    &:hover{ color: rgb(20, 156, 197);} 
+                        i{
+                            font-size: 24px; 
+                            color: rgb(14, 43, 58);
+                            &:hover{
+                              color: rgb(20, 156, 197);
+                         }
+                     }
+                }
+            }
+        }
+    }
+}
+@media  screen and (max-width: 480px){
+        body{
+            header{    
+                .cistac{
+                    clear: both; 
+                }
+                #meni{                
+                    font-size: 12px;
+                    margin: 0% 0% 5% 25% !important;   
+                    width: 80%  ;     
+                    float: left;
+                    padding-bottom: 5px ; 
+                    ul{
+                        width: 50% ;
+                        display: flex; 
+                        flex-wrap: wrap;   
+                        justify-content: center;     
+                        padding-left: 10px;             
+                        li{
+                            width: 100%; 
+                            text-align: center;  
+                            margin-top: 5px !important; 
+                            background-color: rgb(53, 119, 155);  
+                            transition: 0.5s; 
+                            margin-top: 10px; 
+                            &:hover{
+                                transform: scale(1.3);
+                                z-index: 3;
+                            }
+                            a{
+                                text-align: center;
+                                color: rgb(214, 214, 219);                                
+                            }                                                                   
+                        }
+                    }
+                }
+        } 
+        #sredina{
+            width: 100%; 
+            #box{
+                #boxtext{
+                    top: 50% !important; 
+                    left: 13% !important;
+                    width: 70% !important; 
+                    h1{
+                        font-size: 35px ; 
+                        word-wrap: wrap;
+                    }                                      
+                }
+                #developer{
+                    left: 18% !important; 
+                    top: 75% !important; 
+                    width: 60% !important; 
+                    h2{
+                        font-size: 30px ; 
+                    }             
+                }
+            }
+        }
+        #oSebi{
+            width: 100% ; 
+            h2{
+                font-size: 30px; 
+            }
+                #glavno{
+                    flex-direction: column;                         
+                    #border{
+                        border: none; 
+                    }       
+                .stavke{  
+                    width: 60% ;                                    
+                    p{
+                        margin-top: 35px ;
+                        text-align: center; 
+                        font-size: 20px; 
+                        margin-left:44% ; 
+                        padding-right: 10px; 
+                        padding-left: 10px; 
+                    }
+                    #ja{
+                        width:50%;
+                        height: 70%; 
+                        margin-left: 58% ;
+                    }
+                }
+            }  
+        }
+        #pik{
+            flex-direction: column; 
+            #projekti{
+                width: 100%;
+                border-right: none;
+                h2{
+                    font-size: 30px; 
+                }
+            }
+            #kontakt{
+                width: 100%; 
+                h2{
+                    font-size: 30px; 
+                }
+            #forma{
+                width: 200px; 
+                input[type="text"],input[type="email"]{
+                    width: 70%; 
+                    margin-left: 12%; 
+                }
+                input[type="submit"]{
+                    margin-left: 60px;
+                    margin-top: 5px;
+                }
+                textarea{
+                    display: none;  
+                } 
+                [type="reset"]{
+                    margin-left: 60px; 
+                }
+            }
+            }
+        }
+        #vestine{
+            h2{
+                font-size: 34px; 
+            }
+            #jezici{
+                margin-top: 40px ;
+                .simg{
+                    width: 150px; 
+                    height: 150px; 
+                }
+            }
+        }
+        footer{
+            height: inherit; 
+            padding-bottom: 2px; 
+            p{
+                margin-top: 10px; 
+            }
+            #formaFooter{
+                width: 100% ; 
+                ul{
+                    display: flex; 
+                    flex-wrap: wrap;
+                    justify-content: center; 
+                    li{
+                        margin-left: 5% ;
+                    }             
+                }
+            }
+        }
+        #strelica{
+            display: none; 
+        }
+    }
+}
+@media screen and (max-width: 635px ){
+    header{    
+        .cistac{
+            clear: both; 
+        }
+        #meni{                
+            font-size: 22px;
+            margin: 0% 0% 5% 20% !important;   
+            width: 80%  ;     
+            float: left;
+            padding-bottom: 0px !important; 
+            ul{
+                width: 50% ;
+                display: flex; 
+                flex-wrap: wrap;   
+                justify-content: center;     
+                padding-left: 10px;             
+                li{
+                    width: 750px  !important; 
+                    text-align: center;  
+                    margin-top: 3px !important; 
+                    background-color: rgb(53, 119, 155);  
+                    transition: 0.5s; 
+                    margin-top: 10px; 
+                    &:hover{
+                        transform: scale(1.1);
+                        z-index: 3;
+                    }
+                    a{
+                        text-align: center;
+                        color: rgb(214, 214, 219);                                
+                    }                                                                   
+                }
+            }
+        }
+    } 
+}
+@media screen and (max-width: 780px ){
+    header{
+        #meni{
+            width: 100% ;
+            ul{
+                margin-top: 20px; 
+                margin-left: 0px; 
+            }     
+        }
+    }
+    #sredina{
+        #box{
+            #boxtext{
+                width: 60%; 
+                padding: 10px;                
+                top: 42% !important; 
+                left: 18% !important;               
+            }
+            #developer{
+                width: 50% !important ; 
+                left: 23% !important ;
+                top: 69% !important; 
+            }
+        }
+    }
+    #oSebi{
+        #glavno{
+            .stavke{
+                 
+                #ja{
+                    width: 85% ;
+                    height: 80%;
+                    margin-left: 30% ;  
+                }
+                p{
+                    width: 70% ; 
+                    font-size: 20px ;
+                    margin-right: 10px; 
+                }
+            }
+        }
+    }
+    #pik{
+        flex-direction: column; 
+        #projekti{
+            width: 100%;
+            border-right: none; 
+            #projekat{
+                margin-top: 10%; 
+            }
+        }
+        #kontakt{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 960px ){  
+    header{
+        #meni{
+            margin: 5px auto; 
+            ul{
+                li{
+                    margin-left: 4% ; 
+                }
+            }
+        }
+    } 
+     #sredina{
+        #box{
+            #boxtext{
+                top: 20% ; 
+            }
+        }
+     }   
+     #oSebi{
+         #glavno{
+             #border{
+                 border: none; 
+             }
+         }
+     } 
+     footer{
+        padding-bottom: 20px; 
+        #formaFooter{
+            width: 100% ; 
+            ul{
+                display: flex; 
+                flex-wrap: wrap;
+                justify-content: center; 
+                li{
+                    margin-left: 3% ;
+                }             
+            }
+        }
+     }
+}
+@media screen and (max-width: 1100px){
+     header{
+        #meni{
+            margin: 5px auto; 
+            padding-bottom: 25px; 
+
+            ul{
+                margin-right: 10px ;   
+                li{
+                    margin-left: 30px; 
+                }
+            }
+        }
+     }
+     #sredina{
+         #box{
+            #boxtext{
+                    top: 18% ; 
+                    left: 2% ;
+                    width: 60% ; 
+                    h1{
+                        font-size: 45px ; 
+                        word-wrap: wrap;
+                    }                                      
+                }
+                #developer{
+                    left: 36% ; 
+                    top: 85% ; 
+                    width: 60% ; 
+                    h2{
+                        font-size: 40px ; 
+                }             
+            } 
+        }
+     }
+     #pik{
+         #projekti{
+             #projekat{
+                width: 70%; 
+                height: 30%; 
+                margin-left: 15%; 
+                margin-top: 15%; 
+                border-radius: 15%; 
+             }
+         }
+       #kontakt{
+           #forma{
+            input[type="text"],input[type="email"]{
+                width: 100%;
+                margin-left: 40%; 
+            }
+            textarea{
+                width: 70%;
+                margin-left: 59%;  
+            }
+            input[type="submit"],[type="reset"]{
+               margin-left: 73% ;
+               margin-top: 10px; 
+            }
+            [type="reset"]{
+                width: 78px ;
+            }
+            input[type="submit"]{
+                width: 78px ;
+            }
+          }
+       }  
+    }
+ }
+ 
+
+
+
